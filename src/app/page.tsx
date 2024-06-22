@@ -4,20 +4,18 @@ import { AnimatedTooltipPreview } from "./components/ui/info-bulle/AnimatedToolt
 import Nav from "../app/components/Nav";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
-
+import ModalButton from "./components/ModalButton";
 
 export default function Home() {
   return (
     <>
-       <Nav/>
- 
-   <SparklesPreview />
-
-      <AnimatedTooltipPreview /> 
-
-      <ContactForm /> 
-      <Footer />
+      <Nav />
+      <ModalButton />
+      <SparklesPreview />
+      <AnimatedTooltipPreview />
+      <ContactForm />
      
+      <Footer />
     </>
   );
 }
