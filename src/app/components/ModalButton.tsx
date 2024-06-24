@@ -39,7 +39,7 @@ const FlowerModalButton: React.FC = () => {
     <div>
       <button
         onClick={openModal}
-        className=" justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className=" justify-center bg-blue-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
       >
         Click here to have reda wish for the day 
       </button>
