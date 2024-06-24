@@ -41,7 +41,7 @@ const FlowerModalButton: React.FC = () => {
         onClick={openModal}
         className=" justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
-        Click here to have your birthday gift
+        Click here to have reda wish for the day 
       </button>
       <Modal
         isOpen={modalIsOpen}
@@ -50,21 +50,22 @@ const FlowerModalButton: React.FC = () => {
         contentLabel="Flower Modal"
       >
         <div className="p-4">
-          <h2 className="text-xl mb-4">Beautiful flowers for beatiful ALNA</h2>
+          <h2 className="text-xl mb-4">Good start week for you</h2>
           <img
-            src="/bouquet-of-flowers.jpg"
-            alt="Bouquet of flowers"
+            src="/happyM.jpg"
+            alt="Bonne journee"
             className="w-full  h-80 rounded-lg"
           />
           <audio controls className="mt-4 w-full">
-            <source src="/Kenny-G-Youre-Beautiful.mp3" type="audio/mpeg" />
+            {/* <source src="/Kenny-G-Youre-Beautiful.mp3" type="audio/mpeg" /> */}
+            <source src="/Quattro-Good-Day.mp3" type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
           <button
             onClick={closeModal}
             className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Close gift
+            Close the wish 
           </button>
         </div>
       </Modal>
