@@ -1,5 +1,4 @@
 import React from 'react';
-import { TypewriterEffectSmoothDemo } from './ui/type-writer/TypewriterEffectSmoothDemo';
 import Image from 'next/image';
 
 const Section: React.FC = () => {
@@ -23,12 +22,16 @@ const Section: React.FC = () => {
             </a>
           </div>
 
-          <div className="relative h-40 w-40 overflow-hidden rounded-full sm:h-48 sm:w-48 lg:order-last lg:h-56 lg:w-56">
+          <div className="relative h-50 w-50 mt-20 ml-10 overflow-hidden rounded-full sm:h-48 sm:w-48 lg:order-last lg:h-56 lg:w-56">
             <Image
-              alt="alna-photo"
-              src="/alna.jpg"
-              className="absolute inset-0 h-full w-full object-cover rounded-full"
-            />
+                 alt="alna-photo"
+                 src="/alna.jpg"
+                 width={900} 
+                 height={900} 
+                 layout="responsive" 
+                 objectFit="cover" 
+                 className="rounded-full"
+                 />
           </div>
 
         </div>
