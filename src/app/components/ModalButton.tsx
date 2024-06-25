@@ -2,6 +2,7 @@
 "use client";
 import React, { useState } from "react";
 import Modal from "react-modal";
+import Image from 'next/image';
 
 // Styles for the modal (you may need to adjust these)
 const modalStyles: Modal.Styles = {
@@ -51,7 +52,7 @@ const FlowerModalButton: React.FC = () => {
       >
         <div className="p-4">
           <h2 className="text-xl mb-4">Good Tuesday 😎  </h2>
-          <img
+          <Image
             src="/tuesday.jpg"
             alt="Bonne journee"
             className="w-full  h-80 rounded-lg"

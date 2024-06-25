@@ -1,5 +1,6 @@
 import React from 'react';
 import { TypewriterEffectSmoothDemo } from './ui/type-writer/TypewriterEffectSmoothDemo';
+import Image from 'next/image';
 
 const Section: React.FC = () => {
   return (
@@ -23,7 +24,7 @@ const Section: React.FC = () => {
           </div>
 
           <div className="relative h-40 w-40 overflow-hidden rounded-full sm:h-48 sm:w-48 lg:order-last lg:h-56 lg:w-56">
-            <img
+            <Image
               alt="alna-photo"
               src="/alna.jpg"
               className="absolute inset-0 h-full w-full object-cover rounded-full"
