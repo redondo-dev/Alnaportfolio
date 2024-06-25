@@ -5,12 +5,14 @@ import Nav from "../app/components/Nav";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import ModalButton from "./components/ModalButton";
+import About from "./components/About"
 
 export default function Home() {
   return (
     <>
       <Nav />
       <ModalButton />
+      <About/>
       <SparklesPreview />
       <AnimatedTooltipPreview />
       <ContactForm />
