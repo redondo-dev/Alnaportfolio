@@ -42,7 +42,7 @@ const FlowerModalButton: React.FC = () => {
         onClick={openModal}
         className=" justify-center bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
-        Click here to have reda wish for tuesday
+        reda wish for wednesday😎
       </button>
       <Modal
         isOpen={modalIsOpen}
@@ -51,9 +51,11 @@ const FlowerModalButton: React.FC = () => {
         contentLabel="Flower Modal"
       >
         <div className="p-4">
-          <h2 className="text-xl mb-4">Good Tuesday 😎  </h2>
+          <h2 className="text-xl mb-4">Good wednesday 😎❤️❤️❤️  </h2>
           <Image
-            src="/tuesday.jpg"
+            src="/happywednesday.gif"
+            width={500}
+            height={500}
             alt="Bonne journee"
             className="w-full  h-80 rounded-lg"
           />
