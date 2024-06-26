@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
               href="#"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-700 transition hover:text-gray-700/75"
+              className="text-blue-500 transition hover:text-gray-700/75"
             >
               <span className="sr-only">Facebook</span>
               <svg
@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
               href="#"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-700 transition hover:text-gray-700/75"
+              className="text-white transition hover:text-gray-700/75"
             >
               <span className="sr-only">Instagram</span>
               <svg
@@ -117,7 +117,7 @@ const Footer: React.FC = () => {
               href="#"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-700 transition hover:text-gray-700/75"
+              className="text-blue-500 transition hover:text-gray-700/75"
             >
               <span className="sr-only">Twitter</span>
               <svg
@@ -136,7 +136,8 @@ const Footer: React.FC = () => {
               href="#"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-700 transition hover:text-gray-700/75"
+              className="text-white transition hover:text-gray-700/75"
+              
             >
               <span className="sr-only">Dribbble</span>
               <svg

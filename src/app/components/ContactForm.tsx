@@ -28,10 +28,24 @@ const ContactForm: React.FC = () => {
     });
   };
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    console.log(formData);
-    // Envoyer les données du formulaire à une API ou un serveur ici
+
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      console.log('Form submitted successfully');
+      // Réinitialiser le formulaire ou afficher un message de succès ici
+    } else {
+      console.error('Form submission failed');
+      // Gérer les erreurs ici
+    }
   };
 
   return (
