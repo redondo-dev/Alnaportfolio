@@ -1,10 +1,11 @@
+import Construction from "@/app/components/Construction";
 import React from "react";
 
 const  blog:React.FC=()=> {
   return (
     <div>
       <h1>page de blog</h1>
-      <h2>coming soon....</h2>
+      <Construction/>
     </div>
   );
 }
