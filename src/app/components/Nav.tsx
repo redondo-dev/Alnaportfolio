@@ -26,7 +26,7 @@ const Nav: React.FC = () => {
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="/carriere"
                 >
                   Careers
                 </a>
@@ -34,7 +34,7 @@ const Nav: React.FC = () => {
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="/histoire"
                 >
                   History
                 </a>
@@ -42,7 +42,7 @@ const Nav: React.FC = () => {
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="/services"
                 >
                   Services
                 </a>
@@ -50,7 +50,7 @@ const Nav: React.FC = () => {
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="/projets"
                 >
                   Projects
                 </a>
@@ -58,7 +58,7 @@ const Nav: React.FC = () => {
               <li>
                 <a
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="/blog"
                 >
                   Blog
                 </a>
