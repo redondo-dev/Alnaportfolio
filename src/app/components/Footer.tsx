@@ -1,9 +1,15 @@
 import React from "react";
+import logo from '../../../public/logo.png';
+import Image from 'next/image';
 
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-500">
-      <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className=" mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+
+      <div className="flex justify-center">
+          <Image src={logo} alt="Logo" className="h-20 w-20" />
+        </div>
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-800">
           AlnaProduction Semiprofessional portfolio of a trader showcasing
           diversified expertise and astute financial investment management.
@@ -154,9 +160,10 @@ const Footer: React.FC = () => {
               </svg>
             </a>
           </li>
-        </ul>
+        </ul> 
+      
       </div>
-      <p className="text-center text-sm text-gray-800 py-4">
+       <p className="text-center text-sm text-gray-800 flex justify-center py-3 ">
         Copyright &copy; 2024. All rights reserved AlnaProd
       </p>
     </footer>
