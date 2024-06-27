@@ -28,8 +28,8 @@ const Section: React.FC = () => {
                  src="/alna.jpg"
                  width={900} 
                  height={900} 
-                 layout="responsive" 
-                 objectFit="cover" 
+               
+                 style={{ objectFit: 'cover' }}
                  className="rounded-full"
                  />
           </div>
