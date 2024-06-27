@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../../public/logo.png';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Nav: React.FC = () => {
   return (
@@ -16,52 +17,52 @@ const Nav: React.FC = () => {
           <nav aria-label="Global" className="hidden md:block">
             <ul className="flex items-center gap-6 text-sm">
               <li>
-                <a
+                <Link
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                   href="#"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                   href="/carriere"
                 >
                   Careers
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                   href="/histoire"
                 >
                   History
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                   href="/services"
                 >
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                   href="/projets"
                 >
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                   href="/blog"
                 >
                   Blog
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
