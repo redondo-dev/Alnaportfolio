@@ -9,7 +9,7 @@ const Nav: React.FC = () => {
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         <Link className="block text-blu-800 dark:text-teal-300" href="#">
           <span className="sr-only">Home</span>
-          <Image src={logo} alt="Logo" className="h-14 w-14"  />
+          <Image src={logo} alt="Logo" className="h-14 w-14"  /> 
          
         </Link>
 

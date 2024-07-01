@@ -2,7 +2,7 @@
 "use client";
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Image from 'next/image';
+import Image from "next/image";
 
 // Styles for the modal (you may need to adjust these)
 const modalStyles: Modal.Styles = {
@@ -42,7 +42,7 @@ const FlowerModalButton: React.FC = () => {
         onClick={openModal}
         className=" justify-center bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
-       wish you were here ❤️❤️❤️
+        I miss you ❤️❤️❤️
       </button>
       <Modal
         isOpen={modalIsOpen}
@@ -51,9 +51,9 @@ const FlowerModalButton: React.FC = () => {
         contentLabel="Flower Modal"
       >
         <div className="p-4">
-          <h2 className="text-xl mb-4">Good thursday ❤️❤️❤️❤️❤️❤️  </h2>
+          <h2 className="text-xl mb-4">Good Monday beauty❤️❤️❤️❤️❤️❤️ </h2>
           <Image
-            src="/hthursday.jpg"
+            src="/bonne-semaine.jpg"
             width={500}
             height={500}
             alt="Bonne journee"
@@ -63,8 +63,8 @@ const FlowerModalButton: React.FC = () => {
             {/* <source src="/Kenny-G-Youre-Beautiful.mp3" type="audio/mpeg" /> */}
             {/* <source src="/Quattro-Good-Day.mp3" type="audio/mpeg" /> */}
             <source
-              // src="/Candy-Dulfer-Wish-You-Were-Here.mp3"
-              src="/Kenny-G-Havana.mp3"
+              src="/Candy-Dulfer-Wish-You-Were-Here.mp3"
+              // src="/Kenny-G-Havana.mp3"
               type="audio/mpeg"
             />
             Your browser does not support the audio element.
@@ -73,7 +73,7 @@ const FlowerModalButton: React.FC = () => {
             onClick={closeModal}
             className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Close the wish 
+            Close the wish
           </button>
         </div>
       </Modal>
