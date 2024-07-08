@@ -42,7 +42,8 @@ const FlowerModalButton: React.FC = () => {
         onClick={openModal}
         className=" justify-center bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
-        I miss you ❤️❤️❤️
+        without news since one week ,I'm worried about you, I hope nothing
+        serious has happened. I miss you ❤️❤️❤️.
       </button>
       <Modal
         isOpen={modalIsOpen}
@@ -51,7 +52,9 @@ const FlowerModalButton: React.FC = () => {
         contentLabel="Flower Modal"
       >
         <div className="p-4">
-          <h2 className="text-xl mb-4">Good Monday beauty❤️❤️❤️❤️❤️❤️ </h2>
+          <h2 className="text-xl mb-4">
+            Good Monday beauty, hope you are safe ❤️❤️❤️❤️❤️❤️{" "}
+          </h2>
           <Image
             src="/bonne-semaine.jpg"
             width={500}
