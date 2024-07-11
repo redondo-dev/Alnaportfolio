@@ -1,7 +1,7 @@
-import React from 'react';
-import logo from '../../../public/logo.png';
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import logo from "../../../public/logo.png";
+import Image from "next/image";
+import Link from "next/link";
 
 const Nav: React.FC = () => {
   return (
@@ -9,8 +9,7 @@ const Nav: React.FC = () => {
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         <Link className="block text-blu-800 dark:text-teal-300" href="#">
           <span className="sr-only">Home</span>
-          <Image src={logo} alt="Logo" className="h-14 w-14"  /> 
-         
+          <Image src={logo} alt="Logo" className="h-14 w-14" />
         </Link>
 
         <div className="flex flex-1 items-center justify-end md:justify-between">
@@ -19,7 +18,7 @@ const Nav: React.FC = () => {
               <li>
                 <Link
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
+                  href="/"
                 >
                   About
                 </Link>
@@ -84,9 +83,7 @@ const Nav: React.FC = () => {
               </a>
             </div> */}
 
-            <button
-              className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
-            >
+            <button className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden dark:bg-gray-800 dark:text-white dark:hover:text-white/75">
               <span className="sr-only">Toggle menu</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +93,11 @@ const Nav: React.FC = () => {
                 stroke="currentColor"
                 strokeWidth="2"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
               </svg>
             </button>
           </div>
