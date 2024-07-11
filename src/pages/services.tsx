@@ -1,13 +1,18 @@
 import React from "react";
 import Construction from "@/app/components/Construction";
+import Nav from "@/app/components/Nav";
+import Footer from "@/app/components/Footer";
 
-const prestations: React.FC = () => {
+const Services: React.FC = () => {
   return (
     <div>
-      <h1>prestations service page</h1>
+      <Nav />
+      <h1>Projects page </h1>
+
       <Construction />
+      <Footer/>
     </div>
   );
 };
 
-export default prestations;
+export default Services;

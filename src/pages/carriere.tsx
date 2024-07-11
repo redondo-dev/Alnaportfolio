@@ -6,8 +6,10 @@ import Construction from "@/app/components/Construction";
 const Carriere: React.FC = () => {
   return (
     <>
+      <Nav />
       <h1>Carriere page</h1>
       <Construction />
+      <Footer/>
     </>
   );
 };
