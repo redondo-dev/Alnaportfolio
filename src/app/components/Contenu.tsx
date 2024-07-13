@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const Contenu: React.FC = () => {
@@ -65,6 +64,6 @@ const Contenu: React.FC = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Contenu;

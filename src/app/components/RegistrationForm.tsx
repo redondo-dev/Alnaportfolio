@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-// Composant fonctionnel en TypeScript
 const RegistrationForm: React.FC = () => {
   return (
     <section className="bg-white">
