@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
+import Link from "next/link";
+import React from "react";
+import Image from "next/image";
 
 // Composant fonctionnel en TypeScript
 const RegistrationForm: React.FC = () => {
@@ -8,21 +8,19 @@ const RegistrationForm: React.FC = () => {
     <section className="bg-white">
       <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
         <aside className="relative block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6">
-
-           <Image
+          <Image
             alt="cyprus beach"
             src="/cyprus.jpg"
             width={1000}
             height={1000}
-            layout='responsive '
-            style ={{ objectFit:"cover"}}
+            style={{ objectFit: "cover" }}
             className="absolute inset-0 mt-40"
           />
         </aside>
 
         <main className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6">
           <div className="max-w-xl lg:max-w-3xl">
-              <span className="sr-only">Home</span>
+            <span className="sr-only">Home</span>
             <Link className="block text-blue-600" href="#">
               <svg
                 className="h-8 sm:h-10"
@@ -35,20 +33,22 @@ const RegistrationForm: React.FC = () => {
                   fill="currentColor"
                 />
               </svg>
-
             </Link>
             <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
               Welcome to Alna blog
             </h1>
 
             <p className="mt-4 leading-relaxed text-gray-500">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-              quibusdam aperiam voluptatum.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              nam dolorum aliquam, quibusdam aperiam voluptatum.
             </p>
 
             <form action="#" className="mt-8 grid grid-cols-6 gap-6">
               <div className="col-span-6 sm:col-span-3">
-                <label htmlFor="FirstName" className="block text-sm font-medium text-gray-700">
+                <label
+                  htmlFor="FirstName"
+                  className="block text-sm font-medium text-gray-700"
+                >
                   First Name
                 </label>
 
@@ -61,7 +61,10 @@ const RegistrationForm: React.FC = () => {
               </div>
 
               <div className="col-span-6 sm:col-span-3">
-                <label htmlFor="LastName" className="block text-sm font-medium text-gray-700">
+                <label
+                  htmlFor="LastName"
+                  className="block text-sm font-medium text-gray-700"
+                >
                   Last Name
                 </label>
 
@@ -74,7 +77,13 @@ const RegistrationForm: React.FC = () => {
               </div>
 
               <div className="col-span-6">
-                <label htmlFor="Email" className="block text-sm font-medium text-gray-700"> Email </label>
+                <label
+                  htmlFor="Email"
+                  className="block text-sm font-medium text-gray-700"
+                >
+                  {" "}
+                  Email{" "}
+                </label>
 
                 <input
                   type="email"
@@ -85,7 +94,13 @@ const RegistrationForm: React.FC = () => {
               </div>
 
               <div className="col-span-6 sm:col-span-3">
-                <label htmlFor="Password" className="block text-sm font-medium text-gray-700"> Password </label>
+                <label
+                  htmlFor="Password"
+                  className="block text-sm font-medium text-gray-700"
+                >
+                  {" "}
+                  Password{" "}
+                </label>
 
                 <input
                   type="password"
@@ -96,7 +111,10 @@ const RegistrationForm: React.FC = () => {
               </div>
 
               <div className="col-span-6 sm:col-span-3">
-                <label htmlFor="PasswordConfirmation" className="block text-sm font-medium text-gray-700">
+                <label
+                  htmlFor="PasswordConfirmation"
+                  className="block text-sm font-medium text-gray-700"
+                >
                   Password Confirmation
                 </label>
 
@@ -118,7 +136,8 @@ const RegistrationForm: React.FC = () => {
                   />
 
                   <span className="text-sm text-gray-700">
-                    I want to receive emails about events, product updates and company announcements.
+                    I want to receive emails about events, product updates and
+                    company announcements.
                   </span>
                 </label>
               </div>
@@ -126,22 +145,29 @@ const RegistrationForm: React.FC = () => {
               <div className="col-span-6">
                 <p className="text-sm text-gray-500">
                   By creating an account, you agree to our
-                  <Link href="#" className="text-gray-700 underline"> terms and conditions </Link>
+                  <Link href="#" className="text-gray-700 underline">
+                    {" "}
+                    terms and conditions{" "}
+                  </Link>
                   and
-                  <Link href="#" className="text-gray-700 underline">privacy policy</Link>.
+                  <Link href="#" className="text-gray-700 underline">
+                    privacy policy
+                  </Link>
+                  .
                 </p>
               </div>
 
               <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
-                <button
-                  className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500"
-                >
+                <button className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500">
                   Create an account
                 </button>
 
                 <p className="mt-4 text-sm text-gray-500 sm:mt-0">
                   Already have an account?
-                  <Link href="#" className="text-gray-700 underline">Log in</Link>.
+                  <Link href="#" className="text-gray-700 underline">
+                    Log in
+                  </Link>
+                  .
                 </p>
               </div>
             </form>
@@ -150,7 +176,7 @@ const RegistrationForm: React.FC = () => {
       </div>
     </section>
   );
-}
+};
 
 export default RegistrationForm;
 // import Link from "next/link";
