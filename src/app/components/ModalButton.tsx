@@ -24,7 +24,7 @@ const modalStyles: Modal.Styles = {
   },
 };
 
-const FlowerModalButton: React.FC = () => {
+const ModalButton: React.FC = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const openModal = () => {
@@ -80,4 +80,4 @@ const FlowerModalButton: React.FC = () => {
   );
 };
 
-export default FlowerModalButton;
+export default ModalButton;
