@@ -1,4 +1,5 @@
 import React from "react";
+import dynamic from 'next/dynamic';
 
 const Contenu: React.FC = () => {
   return (
@@ -66,4 +67,5 @@ const Contenu: React.FC = () => {
   );
 };
 
-export default Contenu;
+
+export default dynamic(() => Promise.resolve(Contenu), { ssr: false });

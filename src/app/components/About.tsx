@@ -2,9 +2,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 
-
-const Section: React.FC = () => {
+const About: React.FC = () => {
   return (
     <section className='w-full bg-blue-200 relative'>
      
@@ -17,7 +17,7 @@ const Section: React.FC = () => {
               Hi, I m  Alna, 30 years old, born and raised in Cyprus, a sympathetic girl looking for peace in the world.
             </p>
             <Link
-              href="#"
+              href="/"
               className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
             >
               Get Started Today
@@ -41,4 +41,4 @@ const Section: React.FC = () => {
   );
 };
 
-export default Section;
+export default dynamic(() => Promise.resolve(About), { ssr: false });

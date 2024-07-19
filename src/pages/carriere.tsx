@@ -9,7 +9,7 @@ const Carriere: React.FC = () => {
       <Nav />
       <h1>Carriere page</h1>
       <Construction />
-      <Footer/>
+      <Footer />
     </>
   );
 };

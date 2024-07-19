@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import Image from "next/image";
 
-// Styles for the modal (you may need to adjust these)
 const modalStyles: Modal.Styles = {
   overlay: {
     backgroundColor: "rgba(0, 0, 0, 0.5)",
@@ -42,7 +41,7 @@ const FlowerModalButton: React.FC = () => {
         onClick={openModal}
         className=" justify-center bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
-        thanks for youre beautiful smile lovely Alna 😘
+      The Alna smile  is wanted 😊
       </button>
       <Modal
         isOpen={modalIsOpen}

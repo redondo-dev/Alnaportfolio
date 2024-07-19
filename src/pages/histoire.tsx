@@ -10,7 +10,7 @@ const histoire: React.FC = () => {
       <h1> Histoire page </h1>
 
       <Construction />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import "../globals.css";
 
-const Construction: React.FC = () => {
+const construction: React.FC = () => {
   return (
     <section className="rounded-3xl shadow-2xl">
       <div className="p-8 text-center sm:p-12">
@@ -11,8 +11,7 @@ const Construction: React.FC = () => {
         </p>
 
         <h2 className="mt-6 text-3xl font-bold">
-          Thank you for your patience 💕!
-          My developper is doing his best 😁
+          Thank you for your patience 💕! My developper is doing his best 😁
         </h2>
         <h3 className="mt-6 text-3xl font-bold text-blue-500">
           From Alna with love 💕😘😘💕{" "}
@@ -29,4 +28,4 @@ const Construction: React.FC = () => {
   );
 };
 
-export default Construction;
+export default construction;

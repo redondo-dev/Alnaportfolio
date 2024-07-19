@@ -2,14 +2,15 @@ import React from "react";
 import logo from "../../../public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
+import dynamic from 'next/dynamic';
 
 const Nav: React.FC = () => {
   return (
     <header className="bg-white dark:bg-gray-900">
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-        <Link className="block text-blu-800 dark:text-teal-300" href="#">
+        <Link className="block text-blu-800 dark:text-teal-300" href="/">
           <span className="sr-only">Home</span>
-          <Image src={logo} alt="Logo" className="h-14 w-14" />
+          <Image src={logo} alt="Logo" className="h-14 w-14" priority  />
         </Link>
 
         <div className="flex flex-1 items-center justify-end md:justify-between">
@@ -18,7 +19,7 @@ const Nav: React.FC = () => {
               <li>
                 <Link
                   className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                  href="/"
+                  href="/about"
                 >
                   About
                 </Link>
@@ -107,4 +108,5 @@ const Nav: React.FC = () => {
   );
 };
 
-export default Nav;
+
+export default dynamic(() => Promise.resolve(Nav), { ssr: false });

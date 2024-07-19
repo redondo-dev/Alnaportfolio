@@ -50,7 +50,7 @@ const people = [
 export function AnimatedTooltipPreview() {
   return (
   <>
-  <h1  className="text-center text-4xl font-bold mt-8 mb-8">Customer reviews  </h1>
+  {/* <h1  className="text-center text-4xl font-bold mt-8 mb-8">Customer reviews  </h1> */}
     <div className="flex flex-row items-center justify-center mb-10 w-full">
       
       <AnimatedTooltip items={people} />
