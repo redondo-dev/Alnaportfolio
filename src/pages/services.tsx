@@ -2,7 +2,7 @@ import React from "react";
 import Construction from "@/app/components/Construction";
 import Nav from "@/app/components/Nav";
 import Footer from "@/app/components/Footer";
-import Contenu from "@/app/components/Contenu";
+import Contenu from"@/app/components/Contenu"
 
 const Services: React.FC = () => {
   return (
